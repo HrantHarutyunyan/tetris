@@ -1,0 +1,167 @@
+body {padding:20px;}
+.squareItem {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	float:left;
+	box-sizing:border-box;
+	border-radius:2px;
+}
+#mainContainer {
+	width:400px;
+	height:600px;
+	box-shadow:0 0 60px blue;
+	border-radius:6px;
+	border:3px solid blue;
+	background-image:url('images/cosmos.jpg');
+}
+.clearColor {
+	background:#cccccc;
+}
+.addColor {
+	background:red;
+}
+.paint{
+	background:#9c9c9c;
+}
+.color0{
+	background:#FFFF33;
+}
+.color2{
+	background:green;
+}
+.color1{
+	background:#FF0066;
+}
+.color3{
+	background:#FF66FF;
+}
+.color4{
+	background:#3366FF;
+}
+.color5{
+	background:#33FF33;
+}
+.color6{
+	background:#000099;
+}
+.startGame{
+	border-radius:15px;
+	position:absolute;
+	left:500px;
+	height:600px;
+	width:300px;
+	top:28px;
+	background-image:url('images/cosmos1.jpg');
+	box-shadow:0 0 50px blue;
+}
+.firstP{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+	margin-bottom:35px;
+}
+select{
+	font-size:30px;
+	border-radius:10px;
+}
+select:hover{
+	cursor:pointer;
+	box-shadow: 0 0 20px white;
+	border-radius:50%;
+	background:#2bc6f1;
+	transition:0.5s all;
+	
+}
+.menuTop{
+	text-align: center;
+}
+.but {
+	position:absolute;
+	top:150px;
+	left:102px;
+	border-radius:4px;
+	background:#ffa202d1;
+	display:none;
+}
+#toPlay {
+	display:block;
+}
+#toPlay : hover {
+	cursor:pointer;
+	box-shadow:0 0 20px white;
+	background:lime;
+	transition:1s all;
+	color:white;
+}
+.offDisplay{
+	display:none;
+}
+.buttonPause {
+	font-size:20px;
+}
+.menuBottom{
+	padding-top:70px;
+}
+#score{
+	width:100px;
+	height:30px;
+	background:#3c596d;
+	margin:0 auto;
+	font-size: 30px;
+	border-radius:10px;
+}
+.lineP{
+	margin-top:30px;
+}
+#line{
+	width:100px;
+	height:30px;
+	background:#3c596d;
+	margin:0 auto;
+	font-size: 30px;
+	border-radius:10px;
+}
+#toShowLose{
+	text-align:center;
+	width:400px;
+	height:600px;
+	background:red;
+	position:absolute;
+	left:31px;
+	top:31px;
+	background:#0c0800;
+	opacity:0.7;
+	color:white;
+	display:block;
+}
+.h1{
+	margin-top:190px;
+}
+#h1_pause{
+	display:none;
+}
+#h1_gameOver{
+	display:none;
+}
+#playingAlarm {
+	display:block;
+	margin-top:30px;
+	background:red;
+}
+#playMusic{
+	display:none;
+	position:absolute;
+	left:10px;
+	top:570px;
+}
+#playMusic:hover {
+	box-shadow: 0 0 20px blue;
+	cursor:pointer;
+	color:red;
+	transition:0.5s all;
+	border-radius:50%;
+	font-size:20px;
+	top:565px;
+}

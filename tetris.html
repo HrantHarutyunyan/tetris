@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<link rel = "stylesheet" href = 'style.css'> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id = 'toShowLose'>
+		<h1 class ='h1' id  = 'h1_gameOver'>Game Over...</h1>
+		<h1 class ='h1' id  = 'h1_pause'>Paused...</h1>
+	</div>
+	<div id = 'mainContainer'></div>
+	<audio id = 'alarm' autoplay> </audio>
+	<script  src = 'index.js'></script>
+	<div class ='startGame'>
+		<div class = 'menuTop'>
+			<p class = 'firstP'>SELECT LEVEL</p>
+			<select id = 'selectLevel'> 
+				<option value = '3'> 1</option>
+				<option value = '2'> 2</option>
+				<option value = '1'> 3</option>
+			</select>
+			<button id = 'toPlay' class = 'but'  type = 'button' onclick = 'playGame()' > START GAME </button>
+			<button id = 'pause' class = 'but'  type = 'button' onclick = 'pauseGame()'> PAUSE </button>
+			<div class = 'menuBottom'>
+				<p class = 'firstP '>SCORE</p>
+				<p class = 'firstP' id = 'score'>0</p>
+				<p class = 'firstP	lineP ' >LINE</p>
+				<p class = 'firstP' id = 'line'>0</p>
+				<button id = 'playMusic' onclick = 'playMusic()' ><i class="fa fa-music" aria-hidden="true"></i></i></button>
+				<audio id = 'playingGameAlarm' autoplay loop> </audio>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
